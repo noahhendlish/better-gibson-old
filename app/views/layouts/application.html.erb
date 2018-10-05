@@ -1,22 +1,6 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
-<head>
-  <title>TU Class Schedule</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  
-  <!-- Will update icon later -->
-  <link rel="icon" href="https://communications.tulane.edu/sites/g/files/rdw811/f/pictures/%C6%92%C6%92TUshield_2c.png">
-  
-</head>
-<body>
 
-<%= yield %>
-
-</body>
-=======
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "Workspace" %></title>
@@ -37,5 +21,4 @@
       <%= yield %>
     </main>
   </body>
->>>>>>> dfad096806f2607c9271ec8851613e6adebc3f5e
 </html>

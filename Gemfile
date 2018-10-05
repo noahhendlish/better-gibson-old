@@ -45,3 +45,6 @@ group :development do
   gem 'spring'
 end
 
+group :development do
+  gem 'rails_layout'
+end

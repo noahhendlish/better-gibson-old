@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(version: 20180927010844) do
     t.string   "start_time"
     t.string   "end_time"
     t.string   "credits"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "students", force: :cascade do |t|

@@ -5,7 +5,9 @@
 <br /><br />
 
 <div class="well">
+
     <%= form_for @new_course do |f| %>
+    
     <div class="form-group"> 
     <%= f.label :course_num, class: "control-label" %>
     <%= f.text_field :course_num, :required => true, minlength: 5, maxlength: 5, size: 5, class: "form-control" %>

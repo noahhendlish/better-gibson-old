@@ -23,7 +23,6 @@ class CoursesController < ApplicationController
     @course.destroy
     redirect_to root_path, :notice => "Course is delete!"
   end
-
   #require(:new_course). testing to see
   private
   def course_params

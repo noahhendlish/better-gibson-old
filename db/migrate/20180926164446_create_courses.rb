@@ -12,7 +12,6 @@ class CreateCourses < ActiveRecord::Migration
       t.string :start_time
       t.string :end_time
       t.string :credits
-      
       t.timestamps null: false
 
     end

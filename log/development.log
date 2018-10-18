@@ -12195,3 +12195,2703 @@ Processing by CoursesController#index as HTML
   Rendered layouts/_navigation.html.erb (1.0ms)
   Rendered layouts/_messages.html.erb (0.1ms)
 Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 00:10:01 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (1.0ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 254ms (Views: 239.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 00:10:02 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 00:10:02 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 00:38:10 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (15.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 283ms (Views: 267.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 00:38:11 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 00:38:11 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 00:42:05 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.7ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 280ms (Views: 265.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 00:42:06 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 00:42:06 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students/index" for 129.81.30.102 at 2018-10-18 00:42:08 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/students/index"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.1ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 00:45:04 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.9ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 274ms (Views: 259.7ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 00:45:05 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 00:45:05 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 00:53:32 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant StudentsController::Students):
+  app/controllers/students_controller.rb:4:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 00:57:34 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+AbstractController::ActionNotFound (The action 'courses' could not be found for StudentsController):
+  actionpack (4.2.10) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (2.0ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 00:58:13 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+AbstractController::ActionNotFound (The action 'courses' could not be found for StudentsController):
+  actionpack (4.2.10) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.7ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 00:58:54 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (21.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (2.2ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 290ms (Views: 274.9ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 00:58:55 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 00:58:55 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 00:59:01 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.7ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/students/students/students/students/index" for 129.81.30.102 at 2018-10-18 00:59:06 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/students/students/students/students/index"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.8ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:01:20 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 267ms (Views: 253.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:01:21 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:01:21 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:01:24 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (5.1ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 21.0ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:01:44 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:02:01 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:02:03 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:09:40 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:11:45 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (16.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 286ms (Views: 270.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:11:46 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:11:46 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:11:50 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 23.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:11:56 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:14:46 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.9ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (26.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 290ms (Views: 274.3ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/courses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 129.81.30.226 at 2018-10-18 01:14:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recommender.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 129.81.30.226 at 2018-10-18 01:14:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/simple.self-43181105b9def7b73086a196e73a2fe8a8522869655fecf3e312728b2d23fa41.css?body=1" for 129.81.30.226 at 2018-10-18 01:14:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/students.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 129.81.30.226 at 2018-10-18 01:14:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recommender.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.30.226 at 2018-10-18 01:14:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-4998ce12ecefa6ba42de36e4beac458527529608f8cf0fe6c97acd87850045e4.css?body=1" for 129.81.30.226 at 2018-10-18 01:14:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/students.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.30.226 at 2018-10-18 01:14:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/courses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.30.226 at 2018-10-18 01:14:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eba3cb53a585a0960ade5a8cb94253892706bb20e3f12097a13463b1f12a4528.js?body=1" for 129.81.30.226 at 2018-10-18 01:14:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 01:14:51 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 19.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:14:54 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:15:31 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:15:40 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:15:40 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:17:00 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:17:02 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:17:04 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     5: <br /><br />
+     6: 
+     7: <div class="well">
+     8:     <%= form_for @new_course do |f| %>
+     9:     <div class="form-group"> 
+    10:     <%= f.label :course_num, class: "control-label" %>
+    11:     <%= f.text_field :course_num, :required => true, minlength: 5, maxlength: 5, size: 5, class: "form-control" %>
+  app/views/students/new.html.erb:8:in `_app_views_students_new_html_erb___1011391806457313360_70189902947100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.8ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 01:17:24 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     5: <br /><br />
+     6: 
+     7: <div class="well">
+     8:     <%= form_for @new_course do |f| %>
+     9:     <div class="form-group"> 
+    10:     <%= f.label :course_num, class: "control-label" %>
+    11:     <%= f.text_field :course_num, :required => true, minlength: 5, maxlength: 5, size: 5, class: "form-control" %>
+  app/views/students/new.html.erb:8:in `_app_views_students_new_html_erb___1011391806457313360_70189902947100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.9ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:17:25 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 01:17:27 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     5: <br /><br />
+     6: 
+     7: <div class="well">
+     8:     <%= form_for @new_course do |f| %>
+     9:     <div class="form-group"> 
+    10:     <%= f.label :course_num, class: "control-label" %>
+    11:     <%= f.text_field :course_num, :required => true, minlength: 5, maxlength: 5, size: 5, class: "form-control" %>
+  app/views/students/new.html.erb:8:in `_app_views_students_new_html_erb___1011391806457313360_70189902947100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:17:29 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.4ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:17:32 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:20:13 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.7ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (22.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 267ms (Views: 252.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:20:14 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:20:14 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:20:18 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.8ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 21.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:20:19 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (25.3ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined method `course_num' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     8:     <%= form_for @new_student do |f| %>
+     9:     <div class="form-group"> 
+    10:     <%= f.label :course_num, class: "control-label" %>
+    11:     <%= f.text_field :course_num, :required => true, minlength: 5, maxlength: 5, size: 5, class: "form-control" %>
+    12:     </div>
+    13:     
+    14:     <div class="form-group">
+  app/views/students/new.html.erb:11:in `block in _app_views_students_new_html_erb__2301629669991706011_70215082321220'
+  app/views/students/new.html.erb:8:in `_app_views_students_new_html_erb__2301629669991706011_70215082321220'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.8ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:21:22 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (1.1ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (23.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 265ms (Views: 250.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:21:26 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:21:26 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:21:30 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:21:31 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (25.7ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (undefined method `course_num' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     8:     <%= form_for @new_student do |f| %>
+     9:     <div class="form-group"> 
+    10:     <%= f.label :course_num, class: "control-label" %>
+    11:     <%= f.text_field :course_num, :required => true, minlength: 5, maxlength: 5, size: 5, class: "form-control" %>
+    12:     </div>
+    13:     
+    14:     <div class="form-group">
+  app/views/students/new.html.erb:11:in `block in _app_views_students_new_html_erb__1490375778318049010_69848232573500'
+  app/views/students/new.html.erb:8:in `_app_views_students_new_html_erb__1490375778318049010_69848232573500'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.4ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:21:58 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Course:0x00007f0d9ebf1a78>):
+     8:     <%= form_for @new_course do |f| %>
+     9:     <div class="form-group"> 
+    10:     <%= f.label :major, class: "control-label" %>
+    11:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    12:     </div>
+    13: 
+    14:     <div class="form-group">
+  app/views/courses/new.html.erb:11:in `block in _app_views_courses_new_html_erb__2002026738095884091_69848237301660'
+  app/views/courses/new.html.erb:8:in `_app_views_courses_new_html_erb__2002026738095884091_69848237301660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.9ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:22:08 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.5ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:22:10 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Course:0x00007f0d9da4c408>):
+     8:     <%= form_for @new_course do |f| %>
+     9:     <div class="form-group"> 
+    10:     <%= f.label :major, class: "control-label" %>
+    11:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    12:     </div>
+    13: 
+    14:     <div class="form-group">
+  app/views/courses/new.html.erb:11:in `block in _app_views_courses_new_html_erb__2002026738095884091_69848237301660'
+  app/views/courses/new.html.erb:8:in `_app_views_courses_new_html_erb__2002026738095884091_69848237301660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.5ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:22:13 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.6ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:22:46 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Course:0x00007f0d9c8222f0>):
+     8:     <%= form_for @new_course do |f| %>
+     9:     <div class="form-group"> 
+    10:     <%= f.label :major, class: "control-label" %>
+    11:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    12:     </div>
+    13: 
+    14:     <div class="form-group">
+  app/views/courses/new.html.erb:11:in `block in _app_views_courses_new_html_erb__2002026738095884091_69848237301660'
+  app/views/courses/new.html.erb:8:in `_app_views_courses_new_html_erb__2002026738095884091_69848237301660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.6ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:22:57 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:23:18 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="well">
+     8: 
+     9:     <%= form_for @new_student do |f| %>
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :course_num, class: "control-label" %>
+  app/views/courses/new.html.erb:9:in `_app_views_courses_new_html_erb__2002026738095884091_69848235563260'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.4ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:23:23 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.6ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:23:33 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.5ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:23:35 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="well">
+     8: 
+     9:     <%= form_for @new_student do |f| %>
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :course_num, class: "control-label" %>
+  app/views/courses/new.html.erb:9:in `_app_views_courses_new_html_erb__2002026738095884091_69848235563260'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.2ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:23:37 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:23:42 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.5ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:23:45 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="well">
+     8: 
+     9:     <%= form_for @new_student do |f| %>
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :course_num, class: "control-label" %>
+  app/views/courses/new.html.erb:9:in `_app_views_courses_new_html_erb__2002026738095884091_69848235563260'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.3ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:23:53 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:23:55 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:23:58 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="well">
+     8: 
+     9:     <%= form_for @new_student do |f| %>
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :course_num, class: "control-label" %>
+  app/views/courses/new.html.erb:9:in `_app_views_courses_new_html_erb__2002026738095884091_69848235563260'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.2ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:24:20 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="well">
+     8: 
+     9:     <%= form_for @new_class do |f| %>
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :course_num, class: "control-label" %>
+  app/views/courses/new.html.erb:9:in `_app_views_courses_new_html_erb__2002026738095884091_69848221529560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.4ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:24:32 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:24:35 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="well">
+     8: 
+     9:     <%= form_for @new_student do |f| %>
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :course_num, class: "control-label" %>
+  app/views/courses/new.html.erb:9:in `_app_views_courses_new_html_erb__2002026738095884091_69848232891840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.3ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:24:38 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.5ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:24:56 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.6ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:24:59 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="well">
+     8: 
+     9:     <%= form_for @new_class do |f| %>
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :course_num, class: "control-label" %>
+  app/views/courses/new.html.erb:9:in `_app_views_courses_new_html_erb__2002026738095884091_69848236235700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.7ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:25:01 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:25:11 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="well">
+     8: 
+     9:     <%= form_for @new_class do |f| %>
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :course_num, class: "control-label" %>
+  app/views/courses/new.html.erb:9:in `_app_views_courses_new_html_erb__2002026738095884091_69848236235700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.2ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:25:15 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 01:25:19 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__1490375778318049010_69848233839180'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__1490375778318049010_69848233839180'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.8ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:25:26 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (1.2ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (26.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 272ms (Views: 255.9ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:25:27 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:25:27 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:25:28 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.7ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/courses/new" for 129.81.30.102 at 2018-10-18 01:25:30 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="well">
+     8: 
+     9:     <%= form_for @new_class do |f| %>
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :course_num, class: "control-label" %>
+  app/views/courses/new.html.erb:9:in `_app_views_courses_new_html_erb__2504497971180018844_70205921874560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.5ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:25:47 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (20.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:25:59 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/courses/courses/courses/new" for 129.81.30.102 at 2018-10-18 01:26:04 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/courses/courses/courses/new"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.1ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:26:11 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/courses/new" for 129.81.30.102 at 2018-10-18 01:26:13 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/courses/courses/new"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.0ms)
+
+
+Started GET "/courses/courses/new" for 129.81.30.102 at 2018-10-18 01:26:13 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/courses/courses/new"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.3ms)
+
+
+Started GET "/courses/courses/new" for 129.81.30.102 at 2018-10-18 01:26:16 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/courses/courses/new"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.6ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:26:39 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.7ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (23.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 261ms (Views: 246.5ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:26:42 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (20.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:27:37 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (23.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 268ms (Views: 253.1ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:27:41 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 26.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:27:42 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (22.7ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__1295586398764448892_70156090024100'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__1295586398764448892_70156090024100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.4ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:27:49 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:29:10 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 277ms (Views: 261.3ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:29:14 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (23.4ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 1.8ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__223672140564382861_69871985165780'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__223672140564382861_69871985165780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "courses" ("course_num", "department_id", "course_code", "section", "name", "location", "instructor", "days", "start_time", "end_time", "credits", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["course_num", "19345"], ["department_id", "CMPS"], ["course_code", "1500"], ["section", "01"], ["name", "Intro to Computer Science I"], ["location", "ST 302"], ["instructor", "Kurdia"], ["days", "M,W,F"], ["start_time", "11:00am"], ["end_time", "11:50am"], ["credits", "4"], ["created_at", "2018-10-18 01:29:27.841439"], ["updated_at", "2018-10-18 01:29:27.841439"]]
+  [1m[35m (3.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "courses" ("course_num", "department_id", "course_code", "section", "name", "location", "instructor", "days", "start_time", "end_time", "credits", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"  [["course_num", "38295"], ["department_id", "CPST"], ["course_code", "4610"], ["section", "81"], ["name", "Network Adminstration"], ["location", "Elmwood"], ["instructor", "Le"], ["days", "TH"], ["start_time", "6:00pm"], ["end_time", "8:50pm"], ["credits", "3"], ["created_at", "2018-10-18 01:29:27.852442"], ["updated_at", "2018-10-18 01:29:27.852442"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "courses" ("course_num", "department_id", "course_code", "section", "name", "location", "instructor", "days", "start_time", "end_time", "credits", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["course_num", "23085"], ["department_id", "CPST"], ["course_code", "2300"], ["section", "81"], ["name", "Database Fundamentals"], ["location", "Elmwood"], ["instructor", "Sun"], ["days", "T"], ["start_time", "6:00pm"], ["end_time", "8:50pm"], ["credits", "3"], ["created_at", "2018-10-18 01:29:27.857951"], ["updated_at", "2018-10-18 01:29:27.857951"]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "courses" ("course_num", "department_id", "course_code", "section", "name", "location", "instructor", "days", "start_time", "end_time", "credits", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["course_num", "19345"], ["department_id", "CMPS"], ["course_code", "1500"], ["section", "01"], ["name", "Intro to Computer Science I"], ["location", "ST 302"], ["instructor", "Kurdia"], ["days", "M,W,F"], ["start_time", "11:00am"], ["end_time", "11:50am"], ["credits", "4"], ["created_at", "2018-10-18 01:29:43.561835"], ["updated_at", "2018-10-18 01:29:43.561835"]]
+  [1m[35m (2.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "courses" ("course_num", "department_id", "course_code", "section", "name", "location", "instructor", "days", "start_time", "end_time", "credits", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"  [["course_num", "38295"], ["department_id", "CPST"], ["course_code", "4610"], ["section", "81"], ["name", "Network Adminstration"], ["location", "Elmwood"], ["instructor", "Le"], ["days", "TH"], ["start_time", "6:00pm"], ["end_time", "8:50pm"], ["credits", "3"], ["created_at", "2018-10-18 01:29:43.572268"], ["updated_at", "2018-10-18 01:29:43.572268"]]
+  [1m[36m (2.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "courses" ("course_num", "department_id", "course_code", "section", "name", "location", "instructor", "days", "start_time", "end_time", "credits", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["course_num", "23085"], ["department_id", "CPST"], ["course_code", "2300"], ["section", "81"], ["name", "Database Fundamentals"], ["location", "Elmwood"], ["instructor", "Sun"], ["days", "T"], ["start_time", "6:00pm"], ["end_time", "8:50pm"], ["credits", "3"], ["created_at", "2018-10-18 01:29:43.580482"], ["updated_at", "2018-10-18 01:29:43.580482"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:30:00 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 21.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:31:56 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:32:23 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 307ms (Views: 292.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:32:24 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:32:24 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:32:32 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:32:33 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (23.9ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__1454544904556154715_70029375648340'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__1454544904556154715_70029375648340'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.3ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:33:03 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.5ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.0ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'courses'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.4ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'recommenders'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'students'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:33:43 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 26.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:33:46 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 20.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:33:57 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 01:33:57 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__1454544904556154715_70029375648340'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__1454544904556154715_70029375648340'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.2ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:39:08 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (27.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 262ms (Views: 247.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:39:11 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:41:09 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (42.1ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 3.2ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb___2317102404062536525_23294580'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb___2317102404062536525_23294580'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.8ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:41:11 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 374ms (Views: 370.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:41:12 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:41:12 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/courses/new" for 129.81.30.102 at 2018-10-18 01:41:14 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:41:16 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:41:17 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:41:18 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb___2317102404062536525_23294580'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb___2317102404062536525_23294580'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.9ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:43:00 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.7ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 26.3ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:43:03 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:44:34 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "courses" ("course_num", "department_id", "course_code", "section", "name", "location", "instructor", "days", "start_time", "end_time", "credits", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["course_num", "19345"], ["department_id", "CMPS"], ["course_code", "1500"], ["section", "01"], ["name", "Intro to Computer Science I"], ["location", "ST 302"], ["instructor", "Kurdia"], ["days", "M,W,F"], ["start_time", "11:00am"], ["end_time", "11:50am"], ["credits", "4"], ["created_at", "2018-10-18 01:44:49.792897"], ["updated_at", "2018-10-18 01:44:49.792897"]]
+  [1m[35m (2.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "courses" ("course_num", "department_id", "course_code", "section", "name", "location", "instructor", "days", "start_time", "end_time", "credits", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"  [["course_num", "38295"], ["department_id", "CPST"], ["course_code", "4610"], ["section", "81"], ["name", "Network Adminstration"], ["location", "Elmwood"], ["instructor", "Le"], ["days", "TH"], ["start_time", "6:00pm"], ["end_time", "8:50pm"], ["credits", "3"], ["created_at", "2018-10-18 01:44:49.801204"], ["updated_at", "2018-10-18 01:44:49.801204"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "courses" ("course_num", "department_id", "course_code", "section", "name", "location", "instructor", "days", "start_time", "end_time", "credits", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["course_num", "23085"], ["department_id", "CPST"], ["course_code", "2300"], ["section", "81"], ["name", "Database Fundamentals"], ["location", "Elmwood"], ["instructor", "Sun"], ["days", "T"], ["start_time", "6:00pm"], ["end_time", "8:50pm"], ["credits", "3"], ["created_at", "2018-10-18 01:44:49.807514"], ["updated_at", "2018-10-18 01:44:49.807514"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:46:44 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.9ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (26.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 269ms (Views: 254.7ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:46:45 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:46:47 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:46:47 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students" for 129.81.30.102 at 2018-10-18 01:46:53 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.8ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 22.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:46:55 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (23.0ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__3391565870581548948_70309924293260'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__3391565870581548948_70309924293260'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.6ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:47:54 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.9ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (25.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 285ms (Views: 270.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:47:55 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:47:55 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:47:57 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (25.8ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 1.7ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__3223120449142390947_70243401852420'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__3223120449142390947_70243401852420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.8ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:48:38 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 24.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 01:48:38 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.3ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__3223120449142390947_70243401852420'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__3223120449142390947_70243401852420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.8ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:49:40 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (1.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (23.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 58.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:49:40 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:49:40 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:49:43 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:  <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__3223120449142390947_70243401852420'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__3223120449142390947_70243401852420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.6ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:54:30 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (1.0ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (29.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 295ms (Views: 280.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:54:31 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:54:31 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 01:55:39 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (24.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 259ms (Views: 244.4ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:55:40 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 01:55:40 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 01:55:40 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 01:55:42 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (22.8ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 1.6ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:     <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb___3248442276039427767_70320694750860'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb___3248442276039427767_70320694750860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.1ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:55:43 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:56:11 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (1.0ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (28.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (2.1ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 303ms (Views: 286.1ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:56:14 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.8ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 21.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 01:56:15 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (22.5ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:     <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__2682384444271446697_70265648819560'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__2682384444271446697_70265648819560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.5ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:57:27 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:58:14 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 01:58:17 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 01:58:19 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:     <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__2682384444271446697_70265648819560'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__2682384444271446697_70265648819560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.0ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:58:28 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.6ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:58:30 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 01:58:31 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+     9:     <%= form_for @new_student do |f| %>
+    10:     <div class="form-group"> 
+    11:     <%= f.label :major, class: "control-label" %>
+    12:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    13:     </div>
+    14: 
+    15:     <div class="form-group">
+  app/views/students/new.html.erb:12:in `block in _app_views_students_new_html_erb__2682384444271446697_70265648819560'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__2682384444271446697_70265648819560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.3ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 01:58:36 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 01:58:39 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 02:01:35 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 02:01:38 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :major, class: "control-label" %>
+    13:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    14:     </div>
+    15: 
+    16:     <div class="form-group">
+  app/views/students/new.html.erb:13:in `block in _app_views_students_new_html_erb__2682384444271446697_70265643008480'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb__2682384444271446697_70265643008480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.2ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 02:01:50 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 02:01:52 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.5ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 02:02:43 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.9ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (14.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 280ms (Views: 265.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 02:02:46 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (30.7ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 1.7ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :major, class: "control-label" %>
+    13:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    14:     </div>
+    15: 
+    16:     <div class="form-group">
+  app/views/students/new.html.erb:13:in `block in _app_views_students_new_html_erb___3358285437837683663_69895676902420'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb___3358285437837683663_69895676902420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.8ms)
+
+
+Started GET "/" for 129.81.30.226 at 2018-10-18 02:05:12 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.6ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (19.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 39.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/courses/new" for 129.81.30.226 at 2018-10-18 02:06:13 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CoursesController#new as HTML
+  Rendered courses/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 02:06:15 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.7ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 40.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 02:06:20 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 1.2ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :major, class: "control-label" %>
+    13:     <%= f.text_field :major, :required => true, class: "form-control" %>
+    14:     </div>
+    15: 
+    16:     <div class="form-group">
+  app/views/students/new.html.erb:13:in `block in _app_views_students_new_html_erb___3358285437837683663_69895676902420'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb___3358285437837683663_69895676902420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.4ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 02:06:22 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 129.81.30.102 at 2018-10-18 02:06:50 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (25.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 262ms (Views: 246.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.30.102 at 2018-10-18 02:06:51 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.30.102 at 2018-10-18 02:06:51 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/students/new" for 129.81.30.102 at 2018-10-18 02:06:54 +0000
+Cannot render console from 129.81.30.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (24.4ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.5ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :major, class: "control-label" %>
+    13:     <%= f.text_field :major, class: "form-control" %>
+    14:     </div>
+    15: 
+    16:     <div class="form-group">
+  app/views/students/new.html.erb:13:in `block in _app_views_students_new_html_erb___2771162129959524195_70193523310800'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb___2771162129959524195_70193523310800'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'courses'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.2ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'recommenders'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'students'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 02:08:03 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 72ms (Views: 68.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 02:08:06 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 1.6ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :major, class: "control-label" %>
+    13:     <%= f.text_field :major, class: "form-control" %>
+    14:     </div>
+    15: 
+    16:     <div class="form-group">
+  app/views/students/new.html.erb:13:in `block in _app_views_students_new_html_erb___2771162129959524195_70193523310800'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb___2771162129959524195_70193523310800'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.1ms)
+
+
+Started GET "/students" for 129.81.30.226 at 2018-10-18 02:09:39 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students/new" for 129.81.30.226 at 2018-10-18 02:13:34 +0000
+Cannot render console from 129.81.30.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `major' for #<Student id: nil, created_at: nil, updated_at: nil>):
+    10:     
+    11:     <div class="form-group"> 
+    12:     <%= f.label :major, class: "control-label" %>
+    13:     <%= f.text_field :major, class: "form-control" %>
+    14:     </div>
+    15: 
+    16:     <div class="form-group">
+  app/views/students/new.html.erb:13:in `block in _app_views_students_new_html_erb___2771162129959524195_70193523310800'
+  app/views/students/new.html.erb:9:in `_app_views_students_new_html_erb___2771162129959524195_70193523310800'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.5.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.5ms)

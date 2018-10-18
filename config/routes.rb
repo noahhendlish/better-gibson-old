@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
   
   resources :courses
-  
   get 'courses' => 'courses#index'
   get 'courses/new' => 'courses#new'
-  
   post 'courses' => 'courses#create'
+
+  resources :students
+  get 'students' => 'students#index'
+  get 'students/new' => 'students#new'
+  post 'students' => 'students#create'
+
 
   #match 'controller(/new)', :via => :get
 
@@ -17,7 +21,11 @@ Rails.application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-
+  #resources :students
+  
+  #get 'students' => 'students#index'
+  #get 'students/new' => 'students#new'
+  #post 'students' => 'students#create'
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 

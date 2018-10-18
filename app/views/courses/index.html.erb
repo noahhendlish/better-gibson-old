@@ -26,6 +26,7 @@
         <td>Start</td>
         <td>Finish</td>
         <td>Credit Hours</td>
+        <td>Delete</td>
     </tr>
     <% classname = 'rowA' %>
     <% @courses.each do |course| %>
@@ -41,6 +42,7 @@
             <td><%=course.start_time %></td>
             <td><%=course.end_time %></td>
             <td><%=course.credits %></td>
+            <td><%= link_to 'Delete', course, :method => :destroy %></td>
         </tr>
         <% if classname ==  'rowA' %>
             <% classname = 'rowB' %>

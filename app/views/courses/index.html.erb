@@ -1,0 +1,51 @@
+<style>
+    .head{
+        background-color:rgb(41,92,77);
+        color: white;
+    }
+    
+    .rowA{background-color:rgb(185,217,235);}
+    
+    .rowB{background-color:white;}
+</style>
+<h1>List of Courses</h1>
+<%= link_to 'Add Courses', "courses/new" %>
+<%= link_to 'View Students', "students" %>
+<%= link_to 'New Account', "students/new" %>
+<br /><br /><br />
+<table class='courseslist' border=1>
+    <tr class='head'>
+        <td>CRN</td>
+        <td>Dept. Code</td>
+        <td>Course Number</td>
+        <td>Section</td>
+        <td>Course Name</td>
+        <td>Location</td>
+        <td>Instructor</td>
+        <td>Days</td>
+        <td>Start</td>
+        <td>Finish</td>
+        <td>Credit Hours</td>
+    </tr>
+    <% classname = 'rowA' %>
+    <% @courses.each do |course| %>
+        <tr class=<%= classname %>>
+            <td><%=course.course_num %></td>
+            <td><%=course.department_id %></td>
+            <td><%=course.course_code %></td>
+            <td><%=course.section %></td>
+            <td><%=course.name %></td>
+            <td><%=course.location %></td>
+            <td><%=course.instructor %></td>
+            <td><%=course.days %></td>
+            <td><%=course.start_time %></td>
+            <td><%=course.end_time %></td>
+            <td><%=course.credits %></td>
+        </tr>
+        <% if classname ==  'rowA' %>
+            <% classname = 'rowB' %>
+        <% else %>
+            <% classname = 'rowA' %>
+        <% end %>
+    <% end %>
+</table>

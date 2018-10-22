@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "Workspace" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Workspace" %>">
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
+    <%= csrf_meta_tags %>
+    
+    <!-- Will update icon later -->
+    <link rel="icon" href="https://communications.tulane.edu/sites/g/files/rdw811/f/pictures/%C6%92%C6%92TUshield_2c.png">
+  </head>
+  <body>
+    <header>
+      <%= render 'layouts/navigation' %>
+    </header>
+    <main role="main">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+    </main>
+  </body>
+</html>

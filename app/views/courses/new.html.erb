@@ -1,0 +1,72 @@
+<h1>Add a New Course</h1>
+
+<%= link_to 'Go back to main page', root_path %>
+
+<br /><br />
+
+<div class="well">
+
+    <%= form_for @new_course do |f| %>
+    
+    <div class="form-group"> 
+    <%= f.label :course_num, class: "control-label" %>
+    <%= f.text_field :course_num, :required => true, minlength: 5, maxlength: 5, size: 5, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">
+    <%= f.label :department_id, class: "control-label" %>
+    <%= f.text_field :department_id, :required => true, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">    
+    <%= f.label :course_code, class: "control-label" %>
+    <%= f.text_field :course_code, :required => true, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">
+    <%= f.label :section, class: "control-label" %>
+    <%= f.text_field :section, :required => true, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">
+    <%= f.label :name, class: "control-label" %>
+    <%= f.text_field :name, :required => true, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">
+    <%= f.label :location, class: "control-label" %>
+    <%= f.text_field :location, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">
+    <%= f.label :instructor, class: "control-label" %>
+    <%= f.text_field :instructor, :required => true, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">
+    <%= f.label :days, class: "control-label" %>
+    <%= f.text_field :days, :required => true, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">
+    <%= f.label :start_time, class: "control-label" %>
+    <%= f.text_field :start_time, :required => true, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">
+    <%= f.label :end_time, class: "control-label" %>
+    <%= f.text_field :end_time, :required => true, class: "form-control" %>
+    </div>
+    
+    <div class="form-group">
+    <%= f.label :credits, class: "control-label" %>
+    <%= f.text_field :credits, :required => true, class: "form-control" %>
+    </div>
+    
+    <div class="actions"> 
+    <%= f.submit "Create", :required => true, class: "btn btn-light" %>
+    </div> 
+    <% end %>
+    </div>
+</div>
+    
